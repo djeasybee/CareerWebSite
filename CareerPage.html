@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html >
+<head>
+       <title>CareerPage</title>
+       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Titillium+Web:wght@300;900&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="styles.css">
+       
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="HomePage.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="CareerPage.html">Career Page</a>
+
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand-logo">
+                    <div>Bayo Akintunde</div>
+                </div>       
+            </div>
+        </div>
+
+        <div class="career-wrapper">
+                <div class="career-history-wrapper">
+                        
+                    <div class="career-wrapper">
+                        <h2> January 2020 – Present </h2> <h3>QA Architect, Craneware Healthcare Software, Edinburgh </h3>
+                        <ul>
+                            <li>Responsible for managing all QA processes, including defining test process and test methods, risk analysis and resource planning for projects.</li> 
+                             <li>Responsible for the design and maintenance of the Selenium C# Automation framework</li> 
+                             <li> Responsible for identifying Automation testing tools that will improve and optimize the quality and provide Proof of concepts.</li>
+                             <li> Focused on Improving productivity with the use of automation tools, and coaching other Automation Engineers. Played an active role in adopting and implementing the Behaviour driven development test approach across the company.</li>    
+                             <li>Responsible for and maintaining a Continuous testing strategy across the development team as part of the Continuous Integration and Development strategy.</li>  
+                             <li>Responsible for Implementing the “Shift-Right” test approach, which included the defining the Business-Critical Flow test framework, with the aim of continuous post-deployment (Production environment) testing.</li>                              
+                             
+                        </ul>
+                            
+                    </div>
+
+                    <div class="career-wrapper">
+                        <h2> March 2018 – December 2019 </h2> <h3>Senior Automation Engineer / Acting Software Manager,  Craneware Healthcare Software, Edinburgh</h3>                     
+                           <ul>
+                               <li>Responsible for line managing 11 delivery team engineers.</li>
+                               <li>Liaised with product owners, developers and clients to compartmentalize technical and functional user requirements into test plans and test scenarios.</li>
+                               <li>Responsible for designing and maintenance of the C# UI Automation Framework using Selenium. </li>
+                               <li>Designed and automate Web UI, using the Behaviour Driven Development framework (BDD), Gherkin, Selenium WebDriver and Page object Model. </li>
+                               <li>Responsible for Selenium Web UI Automation (Azure-Cloud Testing). HTTP Client Web Services tests, using POSTMAN to assert HTTP Response status and verify response data contents.</li>
+                               <li>Designed and maintain API Postman automation tests for the CI/CD integrated tests and TFS dashboard reports.</li>                       
+                           </ul>    
+                    </div>
+
+                    <div class="career-wrapper">
+                        <h2> May 2017 – March 2018 </h2> <h3> Automation Test Consultant. Cordia Services (LLP), Glasgow </h3>
+                        <ul>
+                            <li>Created and implemented the automation tests process and quality assurance strategy. </li>
+                            <li>Responsible for creating and maintenance of Web UI automation tests, using selenium Java with Eclipse. </li>
+                            <li>Analysed user stories and developed test cases to meet specific product and business requirement. </li>
+                            <li>Coached and led a group of 4 test analyst to integrate a Behaviour Driven Development (BDD) Test approach.</li>
+                            <li>Designed and managed test framework including; writing test scripts, setting up test environments, provided deliverable estimates and ensured timely delivery.</li>
+                            <li>Evidenced test results with appropriate record management and collaborated with the development team to define solutions.</li>
+                        </ul>
+                   </div>
+                    
+                   <div class="career-warpper">
+                       <h2>April 2014 – May 2017</h2> <h3> Assistant Director (Senior Quality Assurance Engineer)</h3> 
+                       <ul>
+                           <li>Designed and maintained automation framework testing tasks, collaborating with the development team to design test coverage and scripts.</li>
+                           <li>Conducted both manual and automated end-to-end test of functional and non-functional features on Proxy Generator Application.</li>
+                           <li>Executed test cases to assure quality; identified defects/bugs, communicated risk and recommendations to the engineering team and managed the defect life cycle process.</li>
+                           <li>Collaborated with internal stakeholders in sprint planning and daily scrum, to ensure agile delivery and quality testing of the product.</li>
+                           <li>Performed SQL Interrogation and validation of database server to verify expected output entries.</li>
+                       </ul>
+                   </div>
+            </div>
+        
+        </div>
+    
+    </div>
+
+
+    <script>
+        const careertext = document.querySelectorAll('.career-wrapper')
+        careertext.forEach(careertext => {
+            careertext.addEventListener('mouserover', ()=> {
+                careertext.firstChild[1].classList.add('text-darken')
+            })
+            careertext.addEventListener('mouseout', ()=> {
+                careertext.firstChild[1].classList.remove('text-darken')
+
+
+        })
+        })
+    </script>
+ </body>

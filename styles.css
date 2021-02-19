@@ -1,0 +1,94 @@
+body {
+    font-family: "Rajdhani", sans-serif;
+    margin: 0px
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper :hover {
+   color:black;
+}
+
+.active-nav-link a{
+    color: black !important;
+}
+
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 2.5fr;
+    
+}
+
+.profile-image-wrapper img{
+   
+   padding: 30px;
+  
+}
+
+
+.profile-content-wrapper{
+    
+    padding: 20px;
+}
+
+
+.profile-content-wrapper h1 {
+    color:red;
+}
+
+.profile-content-wrapper h2 {
+    color:red;
+}
+
+.career-history-wrapper {
+   
+    padding-left : 38px;
+} 
+
+.career-history-wrapper h2 {
+    color:red;
+    
+}   
+
+
+
+.career-wrapper{
+    padding: 0px
+}
+
+.text-darken {
+    transition: 1s;
+    filter: (50%)
+}
